@@ -1,4 +1,4 @@
-# Medical-Image-classification
+# Image-classification fine-tuned ResNet50
 Use fine-tuned ResNet50 to classify brain tumors. ResNet50 is pre-trained on ImageNet. The fully connected layer of the model is changed. DropOut is used in the fully connected layer to prevent overfitting. In addition, the loss function uses cross entropy, which is added Label Smoothing.The project can realize the category prediction of a single picture. This is just a small exercise for classification and prediction tasks, there are many shortcomings, welcome to discuss 
 
 ## Dataset structure
